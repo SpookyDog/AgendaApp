@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D8290EA1FB9F3BF00B9C663 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8290E91FB9F3BF00B9C663 /* main.m */; };
+		4D8290ED1FB9F3BF00B9C663 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8290EC1FB9F3BF00B9C663 /* AppDelegate.m */; };
+		4D8290F01FB9F3BF00B9C663 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8290EF1FB9F3BF00B9C663 /* ViewController.m */; };
+		4D8290F61FB9F3BF00B9C663 /* AgendaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D8290F41FB9F3BF00B9C663 /* AgendaApp.xcdatamodeld */; };
+		4D8290F81FB9F3BF00B9C663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8290F71FB9F3BF00B9C663 /* Assets.xcassets */; };
+		4D8290FB1FB9F3BF00B9C663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8290F91FB9F3BF00B9C663 /* LaunchScreen.storyboard */; };
+		4D8291091FB9FBED00B9C663 /* EventDALC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8291081FB9FBED00B9C663 /* EventDALC.m */; };
+		4D82910C1FB9FBF800B9C663 /* EventBC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D82910B1FB9FBF800B9C663 /* EventBC.m */; };
+		4D82910F1FB9FCE200B9C663 /* EventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D82910E1FB9FCE200B9C663 /* EventModel.m */; };
+		4D8291151FBA25CB00B9C663 /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8291141FBA25CB00B9C663 /* EventTableViewCell.m */; };
+		4D8291191FBB394E00B9C663 /* AddEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8291181FBB394E00B9C663 /* AddEventViewController.m */; };
+		4D82911F1FBCC49800B9C663 /* CalenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D82911E1FBCC49800B9C663 /* CalenderViewController.m */; };
+		4D8291221FBDFEB100B9C663 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8291211FBDFEB100B9C663 /* EventDetailViewController.m */; };
+		4D8291251FBF2BEC00B9C663 /* EventObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8291241FBF2BEC00B9C663 /* EventObject.m */; };
+		85BE294A50BADA4B10B819CA /* libPods-AgendaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAFF2383991AE74A6B313A6 /* libPods-AgendaApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BAFF2383991AE74A6B313A6 /* libPods-AgendaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AgendaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8290E51FB9F3BF00B9C663 /* AgendaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgendaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8290E91FB9F3BF00B9C663 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D8290EB1FB9F3BF00B9C663 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D8290EC1FB9F3BF00B9C663 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D8290EE1FB9F3BF00B9C663 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D8290EF1FB9F3BF00B9C663 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D8290F51FB9F3BF00B9C663 /* AgendaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AgendaApp.xcdatamodel; sourceTree = "<group>"; };
+		4D8290F71FB9F3BF00B9C663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D8290FA1FB9F3BF00B9C663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D8290FC1FB9F3BF00B9C663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8291071FB9FBED00B9C663 /* EventDALC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDALC.h; sourceTree = "<group>"; };
+		4D8291081FB9FBED00B9C663 /* EventDALC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDALC.m; sourceTree = "<group>"; };
+		4D82910A1FB9FBF800B9C663 /* EventBC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventBC.h; sourceTree = "<group>"; };
+		4D82910B1FB9FBF800B9C663 /* EventBC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventBC.m; sourceTree = "<group>"; };
+		4D82910D1FB9FCE200B9C663 /* EventModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventModel.h; sourceTree = "<group>"; };
+		4D82910E1FB9FCE200B9C663 /* EventModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventModel.m; sourceTree = "<group>"; };
+		4D8291131FBA25CB00B9C663 /* EventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTableViewCell.h; sourceTree = "<group>"; };
+		4D8291141FBA25CB00B9C663 /* EventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTableViewCell.m; sourceTree = "<group>"; };
+		4D8291161FBA25FE00B9C663 /* AgendaApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AgendaApp-Prefix.pch"; sourceTree = "<group>"; };
+		4D8291171FBB394E00B9C663 /* AddEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEventViewController.h; sourceTree = "<group>"; };
+		4D8291181FBB394E00B9C663 /* AddEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEventViewController.m; sourceTree = "<group>"; };
+		4D82911D1FBCC49800B9C663 /* CalenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderViewController.h; sourceTree = "<group>"; };
+		4D82911E1FBCC49800B9C663 /* CalenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderViewController.m; sourceTree = "<group>"; };
+		4D8291201FBDFEB100B9C663 /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		4D8291211FBDFEB100B9C663 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
+		4D8291231FBF2BEC00B9C663 /* EventObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventObject.h; sourceTree = "<group>"; };
+		4D8291241FBF2BEC00B9C663 /* EventObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventObject.m; sourceTree = "<group>"; };
+		805923AEAFB1986D6ED07160 /* Pods-AgendaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgendaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AgendaApp/Pods-AgendaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CA90CF10504950BEF487DE29 /* Pods-AgendaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgendaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-AgendaApp/Pods-AgendaApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D8290E21FB9F3BF00B9C663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BE294A50BADA4B10B819CA /* libPods-AgendaApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C27863782D971FF634B4379 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				805923AEAFB1986D6ED07160 /* Pods-AgendaApp.debug.xcconfig */,
+				CA90CF10504950BEF487DE29 /* Pods-AgendaApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D8290DC1FB9F3BF00B9C663 = {
+			isa = PBXGroup;
+			children = (
+				4D8290E71FB9F3BF00B9C663 /* AgendaApp */,
+				4D8290E61FB9F3BF00B9C663 /* Products */,
+				0C27863782D971FF634B4379 /* Pods */,
+				8C7345945A3424BC41D77F7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D8290E61FB9F3BF00B9C663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D8290E51FB9F3BF00B9C663 /* AgendaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D8290E71FB9F3BF00B9C663 /* AgendaApp */ = {
+			isa = PBXGroup;
+			children = (
+				4D8291061FB9F94200B9C663 /* Logic */,
+				4D8291021FB9F3F100B9C663 /* Model */,
+				4D8290EB1FB9F3BF00B9C663 /* AppDelegate.h */,
+				4D8290EC1FB9F3BF00B9C663 /* AppDelegate.m */,
+				4D8290EE1FB9F3BF00B9C663 /* ViewController.h */,
+				4D8290EF1FB9F3BF00B9C663 /* ViewController.m */,
+				4D8290F71FB9F3BF00B9C663 /* Assets.xcassets */,
+				4D8290F91FB9F3BF00B9C663 /* LaunchScreen.storyboard */,
+				4D8290FC1FB9F3BF00B9C663 /* Info.plist */,
+				4D8290F41FB9F3BF00B9C663 /* AgendaApp.xcdatamodeld */,
+				4D8290E81FB9F3BF00B9C663 /* Supporting Files */,
+				4D8291131FBA25CB00B9C663 /* EventTableViewCell.h */,
+				4D8291141FBA25CB00B9C663 /* EventTableViewCell.m */,
+				4D8291161FBA25FE00B9C663 /* AgendaApp-Prefix.pch */,
+				4D8291171FBB394E00B9C663 /* AddEventViewController.h */,
+				4D8291181FBB394E00B9C663 /* AddEventViewController.m */,
+				4D82911D1FBCC49800B9C663 /* CalenderViewController.h */,
+				4D82911E1FBCC49800B9C663 /* CalenderViewController.m */,
+				4D8291201FBDFEB100B9C663 /* EventDetailViewController.h */,
+				4D8291211FBDFEB100B9C663 /* EventDetailViewController.m */,
+			);
+			path = AgendaApp;
+			sourceTree = "<group>";
+		};
+		4D8290E81FB9F3BF00B9C663 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D8290E91FB9F3BF00B9C663 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D8291021FB9F3F100B9C663 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D82910D1FB9FCE200B9C663 /* EventModel.h */,
+				4D82910E1FB9FCE200B9C663 /* EventModel.m */,
+				4D8291231FBF2BEC00B9C663 /* EventObject.h */,
+				4D8291241FBF2BEC00B9C663 /* EventObject.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D8291061FB9F94200B9C663 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				4D8291071FB9FBED00B9C663 /* EventDALC.h */,
+				4D8291081FB9FBED00B9C663 /* EventDALC.m */,
+				4D82910A1FB9FBF800B9C663 /* EventBC.h */,
+				4D82910B1FB9FBF800B9C663 /* EventBC.m */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8C7345945A3424BC41D77F7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BAFF2383991AE74A6B313A6 /* libPods-AgendaApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D8290E41FB9F3BF00B9C663 /* AgendaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8290FF1FB9F3BF00B9C663 /* Build configuration list for PBXNativeTarget "AgendaApp" */;
+			buildPhases = (
+				AFD7E2D96887A56266924138 /* [CP] Check Pods Manifest.lock */,
+				4D8290E11FB9F3BF00B9C663 /* Sources */,
+				4D8290E21FB9F3BF00B9C663 /* Frameworks */,
+				4D8290E31FB9F3BF00B9C663 /* Resources */,
+				8F5CAC2230EB10961218F417 /* [CP] Embed Pods Frameworks */,
+				18ED9B568A86F74FD020D828 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgendaApp;
+			productName = AgendaApp;
+			productReference = 4D8290E51FB9F3BF00B9C663 /* AgendaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D8290DD1FB9F3BF00B9C663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Daniel Vasquez Fernandez";
+				TargetAttributes = {
+					4D8290E41FB9F3BF00B9C663 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QGGPBPBMTP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4D8290E01FB9F3BF00B9C663 /* Build configuration list for PBXProject "AgendaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D8290DC1FB9F3BF00B9C663;
+			productRefGroup = 4D8290E61FB9F3BF00B9C663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D8290E41FB9F3BF00B9C663 /* AgendaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D8290E31FB9F3BF00B9C663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8290FB1FB9F3BF00B9C663 /* LaunchScreen.storyboard in Resources */,
+				4D8290F81FB9F3BF00B9C663 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18ED9B568A86F74FD020D828 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AgendaApp/Pods-AgendaApp-resources.sh",
+				"${PODS_ROOT}/CKCalendar/Source/resources/left_arrow.png",
+				"${PODS_ROOT}/CKCalendar/Source/resources/left_arrow@2x.png",
+				"${PODS_ROOT}/CKCalendar/Source/resources/right_arrow.png",
+				"${PODS_ROOT}/CKCalendar/Source/resources/right_arrow@2x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AgendaApp/Pods-AgendaApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F5CAC2230EB10961218F417 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AgendaApp/Pods-AgendaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFD7E2D96887A56266924138 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgendaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D8290E11FB9F3BF00B9C663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D82911F1FBCC49800B9C663 /* CalenderViewController.m in Sources */,
+				4D8291251FBF2BEC00B9C663 /* EventObject.m in Sources */,
+				4D8290F01FB9F3BF00B9C663 /* ViewController.m in Sources */,
+				4D8290ED1FB9F3BF00B9C663 /* AppDelegate.m in Sources */,
+				4D8290EA1FB9F3BF00B9C663 /* main.m in Sources */,
+				4D8291091FB9FBED00B9C663 /* EventDALC.m in Sources */,
+				4D8291151FBA25CB00B9C663 /* EventTableViewCell.m in Sources */,
+				4D82910C1FB9FBF800B9C663 /* EventBC.m in Sources */,
+				4D8290F61FB9F3BF00B9C663 /* AgendaApp.xcdatamodeld in Sources */,
+				4D8291221FBDFEB100B9C663 /* EventDetailViewController.m in Sources */,
+				4D82910F1FB9FCE200B9C663 /* EventModel.m in Sources */,
+				4D8291191FBB394E00B9C663 /* AddEventViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D8290F91FB9F3BF00B9C663 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D8290FA1FB9F3BF00B9C663 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D8290FD1FB9F3BF00B9C663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D8290FE1FB9F3BF00B9C663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D8291001FB9F3BF00B9C663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805923AEAFB1986D6ED07160 /* Pods-AgendaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QGGPBPBMTP;
+				GCC_PREFIX_HEADER = "AgendaApp/AgendaApp-Prefix.pch";
+				INFOPLIST_FILE = AgendaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vasquez.AgendaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D8291011FB9F3BF00B9C663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA90CF10504950BEF487DE29 /* Pods-AgendaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QGGPBPBMTP;
+				GCC_PREFIX_HEADER = "AgendaApp/AgendaApp-Prefix.pch";
+				INFOPLIST_FILE = AgendaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vasquez.AgendaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D8290E01FB9F3BF00B9C663 /* Build configuration list for PBXProject "AgendaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8290FD1FB9F3BF00B9C663 /* Debug */,
+				4D8290FE1FB9F3BF00B9C663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D8290FF1FB9F3BF00B9C663 /* Build configuration list for PBXNativeTarget "AgendaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8291001FB9F3BF00B9C663 /* Debug */,
+				4D8291011FB9F3BF00B9C663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4D8290F41FB9F3BF00B9C663 /* AgendaApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4D8290F51FB9F3BF00B9C663 /* AgendaApp.xcdatamodel */,
+			);
+			currentVersion = 4D8290F51FB9F3BF00B9C663 /* AgendaApp.xcdatamodel */;
+			path = AgendaApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4D8290DD1FB9F3BF00B9C663 /* Project object */;
+}
